@@ -1,0 +1,36 @@
+* {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 5vh;
+}
+h3 {
+  color: white;
+  padding-bottom: 3vh;
+}
+p {
+  color: white;
+  padding-top: 3vh;
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0, 0.7)),
+    url(picture.jpg); /*linear-gradient for the shade of the colors - usually to darken the background to lighter*/
+  height: 100vh; /* vh - view height -> to adjust to the corresponded screen (mobile,pc,tablet..) better then use percentage. */
+  background-size: cover; /* cover the area of the screen - avoid from the picture to be blurred. */
+  background-position: center;
+}
+.header-box {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  transform: translate(-30%, 70%);
+}
+.converted-button {
+  width: 12vh;
+  height: 3.55vh;
+}
